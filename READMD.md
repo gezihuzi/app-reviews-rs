@@ -1,10 +1,10 @@
-# App Store Reviews For Rust
+# App Store Reviews
 
-This is a collection of reviews for Rust from the App Store.
+This is a collection of reviews from the App Store.
 
 In main function, you can put any app info and get the reviews.
 
-Look like:
+Looks like:
 
 ```rust
 #[tokio::main]
@@ -35,3 +35,5 @@ async fn main() -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 ```
+
+Currently only supports App Store.

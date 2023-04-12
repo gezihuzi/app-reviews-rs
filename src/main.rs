@@ -102,7 +102,6 @@ type Reviews = Vec<Review>;
 trait Scraper {
     async fn get_reviews(&self) -> Result<Reviews, Box<dyn Error>>;
 }
-
 struct AppStoreScraper {
     app_id: String,
     regions: Vec<String>,
